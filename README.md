@@ -211,6 +211,7 @@ The easiest way to use `IBAnimatable` is to drag and drop UIKit elements and con
 | ------------- |:-------------:| ----- |
 | startColor | Optional&lt;UIColor> | start gradient color |
 | endColor | Optional&lt;UIColor> | end gradient color |
+| predefinedColor | Optional&lt;String> | Predefined gradients. All supported predefined gradients are in enum [`GradientType`](https://github.com/JakeLin/IBAnimatable/blob/master/IBAnimatable/GradientType.swift)  |
 | startPoint | Optional&lt;String> | start direction point, can find in `GradientStartPoint`. |
 
 #### `NavigationBarDesignable`

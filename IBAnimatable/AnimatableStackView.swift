@@ -79,6 +79,7 @@ import UIKit
   // MARK: - GradientDesignable
   @IBInspectable public var startColor: UIColor?
   @IBInspectable public var endColor: UIColor?
+  @IBInspectable public var predefinedGradient: String?
   @IBInspectable public var startPoint: String?
   
   // MARK: - MaskDesignable
@@ -123,6 +124,6 @@ import UIKit
     configBorder()
     configTintedColor()
     configBlurEffectStyle()
-    configGradent()
+    configGradient()
   }
 }
